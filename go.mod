@@ -66,7 +66,7 @@ require (
 	github.com/marcboeker/go-duckdb v1.8.5
 	github.com/minio/minio-go/v7 v7.0.90
 	github.com/mitchellh/mapstructure v1.5.0
-	github.com/olekukonko/tablewriter v0.0.5
+	github.com/olekukonko/tablewriter v1.0.7
 	github.com/onsi/ginkgo/v2 v2.23.4
 	github.com/onsi/gomega v1.37.0
 	github.com/ory/dockertest/v3 v3.12.0
@@ -116,7 +116,11 @@ require (
 	google.golang.org/protobuf v1.36.6
 )
 
-require github.com/moby/sys/capability v0.4.0 // indirect
+require (
+	github.com/moby/sys/capability v0.4.0 // indirect
+	github.com/olekukonko/errors v0.0.0-20250405072817-4e6d85265da6 // indirect
+	github.com/olekukonko/ll v0.0.8 // indirect
+)
 
 require (
 	cel.dev/expr v0.19.2 // indirect
